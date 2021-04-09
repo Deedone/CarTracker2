@@ -1,4 +1,5 @@
 #include <MicroNMEA.h>
+#include <SoftwareSerial.h>
 #include <math.h>
 
 #define fixCoord(X) ((((double)X) / 1000000.0) * 0.01745329252)
@@ -33,6 +34,5 @@ typedef struct pos
     }
 } Pos;
 
-Pos readPos(MicroNMEA &nmea) {
-    return {.lat = nmea.getLatitude(), .lon = nmea.getLongitude()};
-}
+extern double distance;
+double processNMEA(Stream &gnss);

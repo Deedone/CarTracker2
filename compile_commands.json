@@ -1,0 +1,147 @@
+[
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-as -x assembler-with-cpp -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -o .pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.S.o /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib5f8/MicroNMEA/MicroNMEA.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328/MicroNMEA/src -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328/MicroNMEA/src/MicroNMEA.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/Diploma/.pio/libdeps/nanoatmega328/MicroNMEA/src/MicroNMEA.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/lib961/SoftwareSerial/SoftwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/mpoturai/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/mpoturai/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/src/GNSS.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/mpoturai/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src -I.pio/libdeps/nanoatmega328/MicroNMEA/src -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/GNSS.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/Diploma/src/GNSS.cpp"
+    },
+    {
+        "command": "/home/mpoturai/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DPLATFORMIO=50101 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/mpoturai/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src -I.pio/libdeps/nanoatmega328/MicroNMEA/src -I/home/mpoturai/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/mpoturai/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/main.cpp",
+        "directory": "/home/mpoturai/Diploma",
+        "file": "/home/mpoturai/Diploma/src/main.cpp"
+    }
+]

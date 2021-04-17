@@ -45,10 +45,16 @@ static void do_addtrig(Storage &st, Stream &comm) {
         return;
     }
     double distance = String(ptr).toDouble();
+
+    if (type >= TT_NUM) {
+        comm.print(F("END ERR\n"));
+        return;
+    }
+
     for(int i = 0; i < NUM_TRIGGERS; i++) {
         if (!st.is_trigger_valid(i)) {
             st.set_trigger(i, type, distance);
-        comm.print(F("END OK\n"));
+            comm.print(F("END OK\n"));
             return;
 
         }
@@ -68,6 +74,15 @@ static void do_deltrig(Storage &st, Stream &comm) {
     comm.print(F("END OK\n"));
 }
 
+static void do_setdist(Storage &st, Stream &comm) {
+    comm.print("Do setdist");
+    double newdist = String((char*)cmdbuf+1).toDouble();
+    comm.print("Do newdist" + String(newdist));
+    st.set_distance(newdist);
+
+    comm.print(F("END OK\n"));
+}
+
 static void parse_cmd(Storage &st, Stream &comm) {
     switch (cmdbuf[0]) {
         case CMD_RESET:
@@ -75,6 +90,9 @@ static void parse_cmd(Storage &st, Stream &comm) {
             break;
         case CMD_GETDIST:
             do_getdist(st,comm);
+            break;
+        case CMD_SETDIST:
+            do_setdist(st, comm);
             break;
         case CMD_GETTRIGS:
             do_gettrigs(st, comm);
@@ -86,8 +104,8 @@ static void parse_cmd(Storage &st, Stream &comm) {
             do_deltrig(st, comm);
             break;
         default:
-            Serial.print(F("UNKNOWN COMMAND "));
-            Serial.println(cmdbuf[0]);
+            comm.print(F("UNKNOWN COMMAND "));
+            comm.println(cmdbuf[0]);
 
     }
 }

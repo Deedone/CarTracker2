@@ -6,6 +6,7 @@
 
 #define CMD_RESET 'R'
 #define CMD_GETDIST 'G'
+#define CMD_SETDIST 'S'
 #define CMD_GETTRIGS 'T'
 #define CMD_ADDTRIG 't'
 #define CMD_DELTRIG 'd'

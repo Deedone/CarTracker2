@@ -58,15 +58,17 @@ void Storage::init(bool reinit) {
     for(int i = 0; i < 1024 - sizeof(Storage); i++) {
         unsigned int test = 0;
         EEPROM.get(i, test);
-        if (test == STORAGE_MAGIC) {
-            priv.saveaddr = i;
+        if (test != STORAGE_MAGIC) {
+            continue;
         }
+        priv.saveaddr = i;
         Storage tmp;
         Serial.print(F("Loading\n"));
         EEPROM.get(i, tmp);
         memcpy(this, &tmp, sizeof(Storage));
         return;
     }
+    Serial.print(F("Initing\n"));
     memset(this, 0, sizeof(Storage));
     magic = STORAGE_MAGIC;
     distance = 0.0;
@@ -92,7 +94,7 @@ bool Storage::add_trigger(char type, double distance) {
     }
 
     triggers[i].type = type;
-    triggers[i].distance = distance;
+    triggers[i].distance = distance + this->distance; 
     valid_triggers |= (1 << i);
     maybe_save();
     return true;

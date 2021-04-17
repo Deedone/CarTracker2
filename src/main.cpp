@@ -5,11 +5,13 @@
 #include <GNSS.h>
 #include <Storage.h>
 #include <Control.h>
+#include <Warn.h>
 
 
 
 SoftwareSerial gnss(2,3);
 Storage st;
+Warn warn(Serial, st);
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -28,6 +30,7 @@ void loop() {
   double diff = processNMEA(gnss);
   st.set_distance(st.get_distance() + diff);
   processCommands(st, Serial);
+  warn.process_triggers();
 
   delay(10);
 }

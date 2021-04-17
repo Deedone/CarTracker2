@@ -5,6 +5,12 @@
 #define STORAGE_MAGIC 0xdeadf00dUL
 #define NUM_TRIGGERS 32
 
+enum trigtype {
+    TT_WARN,
+    TT_ERR,
+    TT_CRIT,
+    TT_NUM
+};
 
 struct trigger {
     char type;

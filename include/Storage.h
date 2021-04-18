@@ -2,7 +2,7 @@
 #define STORAGE_H
 #include <EEPROM.h>
 
-#define STORAGE_MAGIC 0xdeadf00dUL
+#define STORAGE_MAGIC 0xdead
 #define NUM_TRIGGERS 32
 
 enum trigtype {
@@ -18,7 +18,7 @@ struct trigger {
 };
 
 class Storage {
-    unsigned long magic;
+    unsigned int magic;
     unsigned long writes;
     unsigned long valid_triggers;
     double distance;

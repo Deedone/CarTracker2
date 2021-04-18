@@ -12,11 +12,15 @@ privdata priv;
 //Relocate struct every 100k writes to reduce eeprom wear
 void Storage::maybe_relocate() {
     if(writes > 100000) {
+        int oldaddr = priv.saveaddr;
         priv.saveaddr += 41;
         if (priv.saveaddr + sizeof(Storage) >= 1024) {
             priv.saveaddr =  (priv.saveaddr + sizeof(Storage)) % 1024;
         }
         Serial.print("Relocating\n");
+        for(int i = 0; i < sizeof(Storage); i++) {
+            EEPROM[i + oldaddr] = 0;
+        }
         save();
     }
 }
@@ -58,6 +62,8 @@ void Storage::init(bool reinit) {
     for(int i = 0; i < 1024 - sizeof(Storage); i++) {
         unsigned int test = 0;
         EEPROM.get(i, test);
+        Serial.print("Testing ");
+        Serial.print(test, HEX);
         if (test != STORAGE_MAGIC) {
             continue;
         }
